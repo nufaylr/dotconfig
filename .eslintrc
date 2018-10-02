@@ -1,0 +1,28 @@
+{
+   "extends": "airbnb", //https://github.com/airbnb/javascript
+   "parser": "babel-eslint",
+   "rules": {
+     "linebreak-style": "off",
+     "import/no-extraneous-dependencies": ["error", {"devDependencies": true}],
+     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+  8     "jsx-a11y/label-has-for": [ 2, {
+  9       "components": [ "Label" ],
+ 10       "required": {
+ 11         "some": [ "nesting", "id" ]
+ 12       },
+ 13       "allowChildren": false,
+ 14     }]
+ 15   },
+ 16   "settings": {
+ 17     "import/resolver": {
+ 18       "webpack": {
+ 19         "config": "webpack.config.js"
+ 20       }
+ 21     }
+ 22   },
+ 23   "env": {
+ 24     "browser": true,
+ 25     "commonjs": true,
+ 26     "es6": true,
+ 27     "jquery": true
+ 28   }
