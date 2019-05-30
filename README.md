@@ -1,3 +1,3 @@
 # 🐙 Configs
-Boilerplate configurations for various projects..
+Boilerplate configurations for various projects and apps..
 
