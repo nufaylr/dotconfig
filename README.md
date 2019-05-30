@@ -1,3 +1,3 @@
-# dotconfig
-config files etc..
+# 🐙 Configs
+Boilerplate configurations for various projects..
 
