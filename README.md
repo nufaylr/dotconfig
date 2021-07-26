@@ -1,3 +1,2 @@
 # 🐙 Configs
-Boilerplate configurations for various projects and apps..
-
+Dotfiles used to configure my desktop and shell environments.
